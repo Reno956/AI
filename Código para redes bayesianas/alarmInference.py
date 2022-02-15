@@ -2,8 +2,9 @@ from modelA import modelA
 
 # Calculate predictions
 predictions = modelA.predict_proba({ 
-    "jhon": "yes",
-    "maria": "yes"
+    "terremoto": "yes"
+    #"jhon": "yes",
+    #"maria": "yes"
 })
 
 # Print predictions for each node
